@@ -1,0 +1,84 @@
+--1.
+--SELECT FirstName , LastName 
+--FROM customers
+--WHERE City='Prague'
+--
+--2.M
+--SELECT *
+--FROM customers
+--WHERE FirstName LIKE '%ch%'
+--
+--2.ch
+--SELECT *
+--FROM customers
+--WHERE FirstName LIKE 'M%'
+--
+--3.
+--SELECT Name, Bytes/1024/1024
+--FROM tracks
+--
+--4.
+--SELECT FirstName, LastName 
+--FROM employees 
+--WHERE (City='Calgary' AND HireDate LIKE'2002%' )
+--5.
+--SELECT FirstName, LastName 
+--FROM employees 
+--WHERE (HireDate - BirthDate>=40)
+--
+--6.
+--SELECT *
+--FROM customers
+--WHERE Country = 'USA' AND Fax IS NULL;
+--
+--7.
+--SELECT ShipCity  
+--FROM sales
+--WHERE ShipCountry = 'Canada' AND (SalesDate LIKE '%-08-%' OR SalesDate LIKE '%-09-%');
+--
+--8.
+--SELECT Email
+--FROM customers
+--WHERE Email LIKE '%gmail.com';
+--
+--9.
+--SELECT *
+--FROM employees 
+--WHERE (HireDate <= '2006-03-22' )
+--
+--10.
+--SELECT Title 
+--FROM employees 
+--ORDER BY Title 
+--
+--11.
+--SELECT LastName, FirstName, '2022-03-22' - Age 
+--FROM customers
+--ORDER BY LastName
+--
+--12.
+--SELECT MIN(Milliseconds / 1000)
+--FROM tracks
+--
+--13.
+--SELECT MIN(Milliseconds / 1000), Name, Composer 
+--FROM tracks
+--
+--14.
+--SELECT Country, AVG( Age)
+--FROM customers
+--GROUP BY Country ;  
+--
+--15.
+--SELECT LastName 
+--FROM employees
+--WHERE HireDate Like '%-10-%'
+--
+--16.
+--SELECT LastName 
+--FROM employees
+--WHERE HireDate = '2002-04-01 00:00:00'
+
+
+
+
